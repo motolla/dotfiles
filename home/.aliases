@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# XBPS
+alias xbu='sudo xbps-install -Su'
+alias xbi='sudo xbps-install -S'
+alias xbr='sudo xbps-remove'
+alias xbq='xbps-query'
+alias xbs='xbps-query -Rs'
+
+# Exa
+alias l='exa --icons'
+alias ll='exa -l --icons'
+alias la='exa -la --icons'
+
+# Internet
+alias aria2d='aria2c -d ~/Downloads/'
+alias curlo='curl -LO'
+alias ping='ping -c 5'
+
