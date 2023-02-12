@@ -2,20 +2,11 @@
 #
 # User configuration sourced by interactive shells
 #
-export EDITOR="nvim"
-export PAGER="less"
-export BROWSER="firefox"
-export MOVPLAY="mpv"
-export PICVIEW="feh"
-export SNDPLAY="mpv"
-export CM_LAUNCHER=rofi
-export TERMINAL="st"
-export PULSE_LATENCY_MSEC=60
-export TERM="xterm-256color"
 
 # -----------------
 # Zsh configuration
 # -----------------
+
 #
 # History
 #
@@ -49,6 +40,11 @@ WORDCHARS=${WORDCHARS//[\/]}
 # --------------------
 # Module configuration
 # --------------------
+
+#
+# aliases
+#
+[ -f ~/.aliases ] && source ~/.aliases
 
 #
 # git
@@ -136,11 +132,6 @@ for key ('k') bindkey -M vicmd ${key} history-substring-search-up
 for key ('j') bindkey -M vicmd ${key} history-substring-search-down
 unset key
 # }}} End configuration added by Zim install
-setopt nopromptbang prompt{cr,percent,sp,subst}
-
-zstyle ':zim:prompt-pwd' git-root yes
-zstyle ':zim:prompt-pwd:fish-style' dir-length 1
-zstyle ':zim:prompt-pwd:separator' format '❯'
-
-source ~/.zim/themes/minimal.zsh-theme
-source ~/.aliases
+#
+# Set Prompt To Starship
+eval "$(starship init zsh)"

@@ -30,7 +30,6 @@ zmodule git-info
 # A heavily reduced, ASCII-only version of the Spaceship and Starship prompts.
 zmodule asciiship
 
-zmodule prompt-pwd
 #
 # Completion
 #
@@ -40,7 +39,7 @@ zmodule zsh-users/zsh-completions --fpath src
 # Enables and configures smart and extensive tab completion.
 # completion must be sourced after all modules that add completion definitions.
 zmodule completion
-zmodule exa
+
 #
 # Modules that must be initialized last
 #
@@ -53,4 +52,7 @@ zmodule zsh-users/zsh-syntax-highlighting
 zmodule zsh-users/zsh-history-substring-search
 # Fish-like autosuggestions for Zsh.
 zmodule zsh-users/zsh-autosuggestions
+zmodule jimhester/per-directory-history
+zmodule zdharma-continuum/fast-syntax-highlighting
 # }}} End configuration added by Zim install
+
