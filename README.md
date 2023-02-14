@@ -17,7 +17,7 @@
 <img src="https://github.com/motolla/dwm-rose/blob/main/assets/dwm-preview3.png">
 <img src="https://github.com/motolla/dwm-rose/blob/main/assets/dwm-preview4.png">
 ---
-&nbsp;
+
 # Details:
 + OS: Void Linux
 + WM: DWM
