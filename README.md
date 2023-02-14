@@ -10,14 +10,14 @@
 </p>
 
 &nbsp;
----
+----
 # Preview For [DWM-Rose](https://github.com/motolla/dwm-rose)
 <img src="https://github.com/motolla/dwm-rose/blob/main/assets/dwm-preview1.png">
 <img src="https://github.com/motolla/dwm-rose/blob/main/assets/dwm-preview2.png">
 <img src="https://github.com/motolla/dwm-rose/blob/main/assets/dwm-preview3.png">
 <img src="https://github.com/motolla/dwm-rose/blob/main/assets/dwm-preview4.png">
----
 
+----
 # Details:
 + OS: Void Linux
 + WM: DWM
