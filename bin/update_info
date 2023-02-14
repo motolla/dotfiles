@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+pkg='xbps-install -un | wc -l'
+dunstify -i /usr/share/icons/Papirus-Dark/16x16/apps/appimagekit-app-outlet.svg "XBPS" "$(eval $pkg) updates available"
+

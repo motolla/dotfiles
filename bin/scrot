@@ -1,0 +1,2 @@
+#!/bin/bash
+scrot $HOME/Pictures/%d-%m-%Y-%H:%M:%S.png; notify-send -i $HOME/Pictures/$(ls -t $HOME/Pictures | head -n 1) "Scrot"$'\n'"Screenshot Taken"
