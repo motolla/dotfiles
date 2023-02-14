@@ -1,0 +1,27 @@
+## Configuration file for CAVA. Default values are commented out. Use either ';' or '#' for commenting.
+[general]
+autosens = 1
+overshoot = 20
+
+bars = 0
+bar_width = 3
+bar_height = 3
+bar_spacing = 1
+
+[output]
+
+method = ncurses
+orientation = bottom
+channels = stereo
+
+[color]
+
+gradient = 1
+gradient_count = 3
+gradient_color_1 = '#ebbcba'
+gradient_color_2 = '#ffb999'
+gradient_color_3 = '#ffc16a'
+
+[smoothing]
+waves = 0
+gravity = 0.5

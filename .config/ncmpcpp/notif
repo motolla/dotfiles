@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+file_path="/media/void/Music"
+filename=$(mpc current -f %file%)
+album_width=80
+
+
+# Get the album art
+ffmpeg -i "$file_path/""$filename" "/tmp/raw_album.png" -y 2> /dev/null &&\
+  convert -resize 80x80 "/tmp/raw_album.png" "/tmp/album.png"
+
+notify-send -i "/tmp/album.png" " Now Playing"$'\n'"󰋄 $(mpc current -f %artist%) - $(mpc current -f %title%)"$'\n'"󰀥 $(mpc current -f %album%)"

@@ -1,0 +1,35 @@
+# Custom
+spacing = 1
+padding = 2
+
+hide_ascii = true
+prefer_small_ascii = true
+
+separator = " "
+key_color = "#c4a7e7"
+separator_color = "#eb6f92"
+
+[palette]
+
+type = "Dark"
+glyph = "󰇥 "
+visible = true
+
+[box]
+
+title = " System Info "
+border = "rounded"
+visible = true
+
+[box.inner_margin]
+x = 0
+y = 0
+
+[keys]
+
+distro = " "
+wm = " "
+shell = " "
+packages = "󰏓 "
+terminal = " "
+uptime = "󰞌 "
