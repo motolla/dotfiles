@@ -62,6 +62,7 @@ display_remaining_time  = no
 #
 # Misc -------------------------------------------------------------------------
 allow_for_physical_item_deletion  = yes
+execute_on_song_change = "~/.config/ncmpcpp/notif"
 autocenter_mode = yes
 centered_cursor = yes
 color1  = white
