@@ -30,7 +30,7 @@
 + OS: Void Linux
 + WM: DWM
 + Terminal: ST
-+ Color Scheme: Rose Pine
++ Color Scheme: Rose Pine & Vscode Dark Theme
 + Shell: zsh
 + Config Framwork: zimfw
 + Prompt: Starship
