@@ -1,0 +1,14 @@
+# Basic Configuration
+format="$directory$cmd_duration\n$shell$character"
+add_newline = false
+
+[character]
+success_symbol = "[#](green)"
+error_symbol = "[^%](red)"
+
+
+[directory]
+truncation_length = 1
+format = "[󰉋 ](yellow) [$path]($style)[$read_only]($read_only_style) "
+read_only = "  "
+truncation_symbol = ""
