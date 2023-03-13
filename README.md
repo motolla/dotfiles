@@ -4,9 +4,9 @@
     <img alt="Rose Pine png" src="https://github.com/rose-pine/rose-pine-theme/blob/main/assets/palette.png" width="150">
 </p>
 <p align="center">
-  <img alt="Repo Size" src="https://custom-icon-badges.demolab.com/github/repo-size/motolla/dotfiles?style=for-the-badge&logo=file-zip&color=c4a7e7&logoColor=e0def4&labelColor=191724" />
-  <img alt="Last Commit (branch)" src="https://custom-icon-badges.demolab.com/github/last-commit/motolla/dotfiles?style=for-the-badge&logo=history&color=ebbcba&logoColor=e0def4&labelColor=191724" />
-  <img alt="License" src="https://custom-icon-badges.demolab.com/github/license/motolla/dotfiles?style=for-the-badge&logo=law&color=eb6f92&logoColor=e0def4&labelColor=181724" />
+  <img alt="Repo Size" src="https://custom-icon-badges.demolab.com/github/repo-size/motolla/dotfiles?style=for-the-badge&logo=file-zip&color=004b72&logoColor=f7f7f7&labelColor=1e1e1e" />
+  <img alt="Last Commit (branch)" src="https://custom-icon-badges.demolab.com/github/last-commit/motolla/dotfiles?style=for-the-badge&logo=history&color=c586c0&logoColor=f7f7f7&labelColor=1e1e1e" />
+  <img alt="License" src="https://custom-icon-badges.demolab.com/github/license/motolla/dotfiles?style=for-the-badge&logo=law&color=6a9955&logoColor=f7f7f7&labelColor=1e1e1e" />
 </p>
 
 &nbsp;
